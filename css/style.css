@@ -399,7 +399,7 @@ html {
 .testimonials__bottom::before {
   content: "";
   position: absolute;
-  background: url(/img/testimonials/quote.png) no-repeat;
+  background: url(../img/testimonials/quote.png) no-repeat;
   top: -5px;
   left: -5px;
   width: 100%;
@@ -442,19 +442,19 @@ html {
   margin: 0 auto 30px auto;
 }
 .advantages__img_first {
-  background-image: url(/img/testimonials/icon1.png);
+  background-image: url(../img/testimonials/icon1.png);
   background-repeat: no-repeat;
 }
 .advantages__img_second {
-  background-image: url(/img/testimonials/icon2.png);
+  background-image: url(../img/testimonials/icon2.png);
   background-repeat: no-repeat;
 }
 .advantages__img_third {
-  background-image: url(/img/testimonials/icon3.png);
+  background-image: url(../img/testimonials/icon3.png);
   background-repeat: no-repeat;
 }
 .advantages__img_fourth {
-  background-image: url(/img/testimonials/icon4.png);
+  background-image: url(../img/testimonials/icon4.png);
   background-repeat: no-repeat;
 }
 
