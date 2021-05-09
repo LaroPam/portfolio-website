@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
     <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -38,12 +39,12 @@
     <section id="about" class="about">
         <div class="wrapper">
             <div class="about__body">
-                <div class="about__column">
+                <div class="about__column about__column_left">
                     <img class="about__photo_back" src="./img/photo2.jpg" alt="worck place">
                     <p class="about__text_vertical">Work Place</p>
                     <img class="about__photo_front" src="./img/photo1.jpg" alt="portret">
                 </div>
-                <div class="about__column">
+                <div class="about__column about__column_right">
                     <h2>About Me</h2>
                     <p class="about__text_grey">The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex!</p>
                     <div class="progress-bar progress-bar__photoshop">
@@ -126,32 +127,32 @@
             <div class="portfolio__body">
                 <div class="portfolio__item">
                     <div class="portfolio__img">
-                        <img src="./img/portfolio/work1.jpg" alt="photo">
+                        <a href="./img/portfolio/work1.jpg" data-fancybox="gallery"><img src="./img/portfolio/work1.jpg" alt="photo"></a>
                     </div>
                 </div>
                 <div class="portfolio__item">
                     <div class="portfolio__img">
-                        <img src="./img/portfolio/work2.jpg" alt="photo">
+                        <a href="./img/portfolio/work2.jpg" data-fancybox="gallery"><img src="./img/portfolio/work2.jpg" alt="photo"></a>
                     </div>
                 </div>
                 <div class="portfolio__item">
                     <div class="portfolio__img">
-                        <img src="./img/portfolio/work3.jpg" alt="photo">
+                        <a href="./img/portfolio/work3.jpg" data-fancybox="gallery"><img src="./img/portfolio/work3.jpg" alt="photo"></a>
                     </div>
                 </div>
                 <div class="portfolio__item">
                     <div class="portfolio__img">
-                        <img src="./img/portfolio/work4.jpg" alt="photo">
+                        <a href="./img/portfolio/work4.jpg" data-fancybox="gallery"><img src="./img/portfolio/work4.jpg" alt="photo"></a>
                     </div>
                 </div>
                 <div class="portfolio__item">
                     <div class="portfolio__img">
-                        <img src="./img/portfolio/work5.jpg" alt="photo">
+                        <a href="./img/portfolio/work5.jpg" data-fancybox="gallery"><img src="./img/portfolio/work5.jpg" alt="photo"></a>
                     </div>
                 </div>
                 <div class="portfolio__item">
                     <div class="portfolio__img">
-                        <img src="./img/portfolio/work6.jpg" alt="photo">
+                        <a href="./img/portfolio/work6.jpg" data-fancybox="gallery"><img src="./img/portfolio/work6.jpg" alt="photo"></a>
                     </div>
                 </div>
             </div>
@@ -162,7 +163,7 @@
             <div class="freelance__body">
                 <p>Do you love my work?</p>
                 <h2>Available For Freelance Work!</h2>
-                <a href="#">Hire Me</a>
+                <a href="#contact">Hire Me</a>
             </div>
         </div>
     </section>
@@ -265,6 +266,9 @@
             </div>
         </div>
     </footer>
-    <script defer src="./js/all.js"></script>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/all.js"></script>
+    <script type="text/javascript" src="./js/contactform.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
 </body>
 </html>
