@@ -581,9 +581,12 @@ html {
   }
 }
 .advantages__body {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+}
+@media (max-width: 768px) {
+  grid-template-columns: repeat(2, 1fr);
 }
 .advantages__item {
   text-align: center;
