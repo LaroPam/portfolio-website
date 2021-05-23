@@ -750,6 +750,7 @@ html {
 .footer__icons ul {
   display: flex;
   gap: 15px;
+  flex-wrap: wrap;
 }
 .footer__icons li i {
   color: white;
