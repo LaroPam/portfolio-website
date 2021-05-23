@@ -586,7 +586,9 @@ html {
   grid-gap: 40px;
 }
 @media (max-width: 768px) {
-  grid-template-columns: repeat(2, 1fr);
+  .advantages__body {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 .advantages__item {
   text-align: center;
