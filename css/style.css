@@ -79,7 +79,7 @@ html {
 }
 @media (max-width: 532px) {
   .header__heading {
-    margin: 180px 0 150px;
+    margin: 80px 0 150px;
     font-size: 40px;
   }
 }
