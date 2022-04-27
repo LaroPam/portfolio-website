@@ -43,9 +43,11 @@ html {
 
 .top {
   height: 100%;
-  background: url(../img/background.jpg) no-repeat;
+  /* background: url(../img/background.jpg) no-repeat; */
   background-size: cover;
   background-position: center center;
+  position: relative;
+
 }
 
 .header {
@@ -54,6 +56,14 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+#header-video {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 .header .container {
   display: flex;
