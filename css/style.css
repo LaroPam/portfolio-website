@@ -49,7 +49,12 @@ html {
   position: relative;
 
 }
-
+.logo_p {
+  font-size: 32px;
+  color: #fff;
+  text-shadow: 0 0 10px red,0 0 20px red,0 0 30px red,0 0 40px red;
+  font-family: 'Josefin Sans', sans-serif;
+}
 .header {
   box-sizing: border-box;
   padding: 40px 0 25px 0;
@@ -79,23 +84,24 @@ html {
   text-align: center;
   margin: 370px 0 300px 0;
   font-weight: 300;
-  color: #000;
+  color: rgb(255, 255, 255);
   font-size: 60px;
 }
 @media (max-width: 1200px) {
   .header__heading {
-    margin: 300px 0 230px 0;
+    margin: 260px 0 230px 0;
   }
 }
 @media (max-width: 532px) {
   .header__heading {
     margin: 80px 0 150px;
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 .header__heading span {
   font-weight: 500;
-  color: black;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px rgb(2, 253, 169),0 0 20px rgb(2, 253, 169),0 0 30px rgb(2, 253, 169),0 0 40px rgb(2, 253, 169);
 }
 .header__scroll-btn {
   display: block;
@@ -130,7 +136,7 @@ html {
 @media (max-width: 465px) {
   .nav {
     flex-direction: column;
-    border-bottom: 1px solid #4e4e4e;
+    border-bottom: 1px solid #ffffff;
   }
 }
 .nav__item {
@@ -153,7 +159,7 @@ html {
 }
 .nav__item a {
   font-size: 16px;
-  color: #22222b;
+  color: #fff;
   text-decoration: none;
   border-bottom: 1px solid #22222b;
   padding: 0 0 2px;
@@ -167,13 +173,14 @@ html {
 @media (max-width: 465px) {
   .nav__item a {
     font-size: 30px;
-    color: #4e4e4e;
+    color: #fff;
     border: none;
   }
 }
 .nav__item a:hover {
   padding: 0 0 3px 0;
-  border-bottom: 2px solid #daa68a;
+  border-bottom: 2px solid #fcfcfc;
+  text-shadow: 0 0 10px red,0 0 20px red,0 0 30px red,0 0 40px red;
 }
 @media (max-width: 465px) {
   .nav__item a:hover {
