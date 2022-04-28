@@ -248,17 +248,25 @@ html {
 .about__text_grey {
   font-size: 16px;
   font-weight: 400;
+  text-align: justify;
   color: #7f7f82;
   line-height: 1.5;
   margin: 0 0 50px 0;
 }
 .about__photo_back {
   position: absolute;
+  text-shadow: 0 0 10px red,0 0 20px red,0 0 30px red,0 0 40px red;
   z-index: -1;
   top: -108px;
   left: 0;
 }
+.about__photo_front {
+  text-shadow: 0 0 10px red,0 0 20px red,0 0 30px red,0 0 40px red;
+
+}
 .about__text_vertical {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px red,0 0 20px red,0 0 30px red,0 0 40px red;
   position: absolute;
   left: 0;
   writing-mode: vertical-lr;
@@ -272,7 +280,8 @@ html {
   content: "";
   width: 1px;
   height: 45px;
-  background-color: #22222b;
+  background-color: #ffffff;
+  text-shadow: 0 0 10px red,0 0 20px red,0 0 30px red,0 0 40px red;
   display: block;
   position: absolute;
   top: 110px;
@@ -417,7 +426,8 @@ html {
   grid-gap: 10px;
 }
 .portfolio__item img {
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
 }
 .portfolio__item:nth-child(1) {
   grid-column: 1/2;
