@@ -352,6 +352,16 @@ html {
   background-color: #faf9fe;
   padding: 128px 0 130px 0;
 }
+
+.services a {
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+
+.services a:hover {
+  text-shadow: 0 0 1px rgba(71, 223, 243, 0.39),0 0 10px rgba(71, 223, 243, 0.39),0 0 15px rgba(71, 223, 243, 0.39),0 0 20px rgba(71, 223, 243, 0.39);
+}
+
 @media (max-width: 1200px) {
   .services {
     padding: 50px 0 60px 0;
