@@ -187,7 +187,9 @@ html {
     border: none;
   }
 }
-
+.about {
+  background: url(../img/bgwhite.jpg);
+}
 .about__body {
   display: flex;
   justify-content: space-between;
@@ -229,8 +231,11 @@ html {
 }
 .about__column h2 {
   font-size: 48px;
+  color: white;
   font-weight: 500;
   margin: 0 0 35px 0;
+  text-shadow: 0 0 10px rgb(248, 175, 224),0 0 20px rgb(248, 175, 224),0 0 30px rgb(248, 175, 224),0 0 40px rgb(248, 175, 224);
+
 }
 @media (max-width: 1200px) {
   .about__column h2 {
@@ -338,6 +343,8 @@ html {
 .mini-heading {
   font-size: 22px;
   font-weight: normal;
+  color: #fff;
+  text-shadow: 0 0 1px rgb(175, 52, 212),0 0 10px rgb(175, 52, 212),0 0 15px rgb(175, 52, 212),0 0 20px rgb(175, 52, 212);
 }
 
 .services {
@@ -401,6 +408,15 @@ html {
 
 .portfolio {
   padding: 130px 0 160px 0;
+  position: relative;
+}
+#portfolio-video {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100%;
 }
 @media (max-width: 1200px) {
   .portfolio {
@@ -410,6 +426,11 @@ html {
 .portfolio__header {
   text-align: center;
   margin: 0 0 82px 0;
+  color: #fff;
+}
+
+.portfolio__header h3 {
+  text-shadow: 0 0 10px rgb(175, 52, 212),0 0 20px rgb(175, 52, 212),0 0 30px rgb(175, 52, 212),0 0 40px rgb(175, 52, 212);
 }
 @media (max-width: 532px) {
   .portfolio__header {
@@ -417,7 +438,7 @@ html {
   }
 }
 .portfolio__header p {
-  color: #7f7f82;
+  color: #dfdfdf;
   font-size: 16px;
 }
 .portfolio__body {
@@ -652,8 +673,6 @@ html {
 .advantages__img {
   width: 70px;
   height: 70px;
-  background-color: #22222b;
-  border-radius: 100%;
   background-position: center center;
   background-repeat: no-repeat;
   margin: 0 auto 30px auto;
