@@ -261,13 +261,13 @@ html {
 .about__photo_back {
   position: absolute;
   text-shadow: 0 0 10px red,0 0 20px red,0 0 30px red,0 0 40px red;
-  z-index: -1;
+  z-index: 1;
   top: -108px;
   left: 0;
 }
 .about__photo_front {
   text-shadow: 0 0 10px red,0 0 20px red,0 0 30px red,0 0 40px red;
-
+  z-index: 2;
 }
 .about__text_vertical {
   color: rgb(255, 255, 255);
@@ -280,6 +280,7 @@ html {
   transform: rotate(180deg);
   bottom: 58px;
   font-weight: 500;
+  z-index: 2;
 }
 .about__text_vertical::after {
   content: "";
